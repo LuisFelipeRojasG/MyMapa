@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Mapa</string>
+    <string name="ir_mapas">Ir a mis mapas</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="titulo_activity_barra_mapas">Ubicación</string>
+    <string name="titulo_activity_barra_principal">My Mapa</string>
+</resources>

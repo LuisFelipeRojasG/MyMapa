@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal">
+
+        <ImageButton
+            android:id="@+id/bIrMapa01"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:elevation="5dp"
+            android:background="@drawable/catedral_metropolitana_de_medellin"
+            android:onClick="irCatedral"
+            />
+
+        <ImageButton
+            android:id="@+id/bIrMapa02"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:elevation="5dp"
+            android:background="@drawable/parque_explora"
+            android:layout_below="@+id/bIrMapa01"
+            android:onClick="irExplora"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <ImageButton
+            android:id="@+id/bIrMapa03"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:elevation="5dp"
+            android:background="@drawable/museo_de_antioquia"
+            android:onClick="irMuseo"
+            />
+
+        <ImageButton
+            android:id="@+id/bIrMapa04"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:elevation="5dp"
+            android:background="@drawable/parque_ecoturistico_arvi"
+            android:layout_below="@+id/bIrMapa03"
+            android:onClick="irArvi"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
